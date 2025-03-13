@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Demo</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image from Pexels</h2>
+    <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Beautiful Landscape" width="500">
+
+    <!-- Table of Contacts -->
+    <h2>Contact Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, Anytown</td>
+                <td>555-123-4567</td>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave, Anytown</td>
+                <td>555-987-6543</td>
+                <td>jane.smith@example.com</td>
+            </tr>
+            <tr>
+                <td>Peter Jones</td>
+                <td>789 Pine Ln, Anytown</td>
+                <td>555-555-1111</td>
+                <td>peter.jones@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary Brown</td>
+                <td>101 Elm Rd, Anytown</td>
+                <td>555-222-3333</td>
+                <td>mary.brown@example.com</td>
+            </tr>
+            <tr>
+                <td>David Wilson</td>
+                <td>222 Maple Dr, Anytown</td>
+                <td>555-444-5555</td>
+                <td>david.wilson@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <!-- Name Field -->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <!-- Email Field -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <!-- Password Field -->
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8">
+        </div>
+
+        <!-- Date Field -->
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+
+        <!-- Dropdown/Select Field -->
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Select a country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+        </div>
+
+        <!-- Radio Buttons -->
+        <div>
+            <p>Gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+        </div>
+
+        <!-- Checkboxes -->
+        <div>
+            <p>Interests:</p>
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="music">Music</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+
+    <!-- Audio Element -->
+    <h2>Audio Example</h2>
+    <audio controls>
+        <source src="your-audio-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Video Example</h2>
+    <video width="320" height="240" controls>
+        <source src="your-video-file.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+</body>
+</html>
